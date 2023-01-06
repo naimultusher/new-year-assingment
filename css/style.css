@@ -160,3 +160,60 @@ footer {
     margin-top: 130px;
     padding: 130px 200px;
 }
+
+.footer-container {
+    display: flex;
+    gap: 331px;
+    justify-content: space-between;
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+
+.footer-des {
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.footer-left ul {
+    padding-left: 0;
+}
+
+.footer-left ul li {
+    line-height: 26px;
+    color: #FFFFFF;
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.footer-left span img {
+    width: 45px;
+    height: 45px;
+}
+
+.footer-right input[type=email] {
+    height: 64px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    color: #F8F8F8;
+    font-size: 18px;
+    padding-left: 15px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+
+.footer-right input[type=submit] {
+    height: 64px;
+    background: #005FAC;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px 30px;
+}
