@@ -8,6 +8,18 @@ section {
     margin-bottom: 130px;
 }
 
+.section-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.primary-des {
+    color: #151414;
+    line-height: 26px;
+}
+
 /* Banner Section */
 
 .banner {
@@ -46,3 +58,105 @@ section {
 
 /* About me section css */
 
+.about-me {
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.about-me-l {
+    height: 550;
+    width: 720;
+}
+
+.about-me-r p {
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.about-me-r ul li {
+    list-style: none;
+    line-height: 26px;
+    color: #151414;
+}
+
+.about-me-r ul {
+    padding-left: 0;
+}
+
+.about-me-r ul li i {
+    color: #16D887;
+}
+
+/* My Plans Styles */
+
+.my-plans {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.my-plans .section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plans-container {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan-item {
+    text-align: center;
+}
+
+.item-title {
+    margin-top: 27px;
+    margin-bottom: 16px;
+    font-size: 30px;
+    color: #151414;
+}
+
+.item-des {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+/* Call to action styles */
+
+.cta {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.cta-container {
+    background: url('../images/watch.png'), url('../images/gradient1.png');
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: none;
+    max-width: 1140px;
+    border-radius: 8px;
+    padding: 60px 0 60px 64px;
+}
+
+.cta-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+/* Footer Section Styles */
+
+footer {
+    background: #151414;
+    margin-top: 130px;
+    padding: 130px 200px;
+}
